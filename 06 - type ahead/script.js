@@ -20,7 +20,7 @@ function displayMatches() {
   const html = matchArray.map(place => {
     return `
     <li>
-      <span class="name">${place.city}, ${place.population}</span>
+      <span class="name">${place.city}, ${place.state}</span>
       <span class="population">${place.population}</span>
     </li>
     `;
